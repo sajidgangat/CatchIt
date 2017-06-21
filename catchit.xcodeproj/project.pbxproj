@@ -13,6 +13,10 @@
 		DACACA721EFAF627002A9656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACACA701EFAF627002A9656 /* Main.storyboard */; };
 		DACACA741EFAF627002A9656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACACA731EFAF627002A9656 /* Assets.xcassets */; };
 		DACACA771EFAF627002A9656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DACACA751EFAF627002A9656 /* LaunchScreen.storyboard */; };
+		DACACA811EFAF7EB002A9656 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA801EFAF7EB002A9656 /* ThirdViewController.swift */; };
+		DACACA831EFAF803002A9656 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA821EFAF803002A9656 /* fourthViewController.swift */; };
+		DACACA851EFAF815002A9656 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA841EFAF815002A9656 /* fifthViewController.swift */; };
+		DACACA871EFB18D8002A9656 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA861EFB18D8002A9656 /* NotesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DACACA731EFAF627002A9656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACACA761EFAF627002A9656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DACACA781EFAF627002A9656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACACA801EFAF7EB002A9656 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DACACA821EFAF803002A9656 /* fourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+		DACACA841EFAF815002A9656 /* fifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
+		DACACA861EFB18D8002A9656 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		DACACA691EFAF627002A9656 /* catchit */ = {
 			isa = PBXGroup;
 			children = (
+				DACACA7F1EFAF791002A9656 /* ViewControllers */,
 				DACACA6A1EFAF627002A9656 /* AppDelegate.swift */,
-				DACACA6C1EFAF627002A9656 /* FirstViewController.swift */,
-				DACACA6E1EFAF627002A9656 /* SecondViewController.swift */,
 				DACACA701EFAF627002A9656 /* Main.storyboard */,
 				DACACA731EFAF627002A9656 /* Assets.xcassets */,
 				DACACA751EFAF627002A9656 /* LaunchScreen.storyboard */,
 				DACACA781EFAF627002A9656 /* Info.plist */,
 			);
 			path = catchit;
+			sourceTree = "<group>";
+		};
+		DACACA7F1EFAF791002A9656 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DACACA6C1EFAF627002A9656 /* FirstViewController.swift */,
+				DACACA6E1EFAF627002A9656 /* SecondViewController.swift */,
+				DACACA801EFAF7EB002A9656 /* ThirdViewController.swift */,
+				DACACA821EFAF803002A9656 /* fourthViewController.swift */,
+				DACACA841EFAF815002A9656 /* fifthViewController.swift */,
+				DACACA861EFB18D8002A9656 /* NotesViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +119,7 @@
 				TargetAttributes = {
 					DACACA661EFAF627002A9656 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = SUEGKC52MK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,8 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACACA831EFAF803002A9656 /* fourthViewController.swift in Sources */,
 				DACACA6F1EFAF627002A9656 /* SecondViewController.swift in Sources */,
+				DACACA851EFAF815002A9656 /* fifthViewController.swift in Sources */,
+				DACACA871EFB18D8002A9656 /* NotesViewController.swift in Sources */,
 				DACACA6B1EFAF627002A9656 /* AppDelegate.swift in Sources */,
+				DACACA811EFAF7EB002A9656 /* ThirdViewController.swift in Sources */,
 				DACACA6D1EFAF627002A9656 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUEGKC52MK;
 				INFOPLIST_FILE = catchit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = catchit.catchit;
@@ -278,6 +304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUEGKC52MK;
 				INFOPLIST_FILE = catchit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = catchit.catchit;
@@ -305,6 +332,7 @@
 				DACACA7D1EFAF627002A9656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
