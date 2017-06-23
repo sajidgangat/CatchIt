@@ -17,8 +17,8 @@ class NoteEditViewController: UIViewController {
         super.viewDidLoad()
 
         
-        textviewNote.text = "Meeting"
-        Textboxsubject.text = "there is a meeting on the 25th of july at 2 PM near Square One"
+        textviewNote.text = "there is a meeting on the 25th of july at 2 PM near Square One"
+        Textboxsubject.text = "Meeting"
         // Do any additional setup after loading the view.
     }
 
