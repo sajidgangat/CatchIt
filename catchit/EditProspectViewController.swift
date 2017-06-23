@@ -29,8 +29,18 @@ class EditProspectiveViewController: UIViewController {
         scrollView.contentSize = CGSize(width: 375, height: 1200)
     }
     
-    
-    
+    @IBAction func Browse(_ sender: Any) {
+        let url = URL(string: "http://www.google.com?www.sajidgangat.com")!
+        
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.openURL(url)
+        }
+
     }
     
+    
+}
+
 

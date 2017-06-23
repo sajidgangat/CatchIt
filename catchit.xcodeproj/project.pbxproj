@@ -11,6 +11,7 @@
 		DA9B98641EFD782F0094C425 /* ProspectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B98631EFD782F0094C425 /* ProspectTableViewController.swift */; };
 		DA9B98661EFD81B20094C425 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B98651EFD81B20094C425 /* NotesTableViewController.swift */; };
 		DA9B98681EFD82580094C425 /* NoteEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B98671EFD82580094C425 /* NoteEditViewController.swift */; };
+		DA9B986C1EFDBA070094C425 /* BrowserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B986B1EFDBA070094C425 /* BrowserController.swift */; };
 		DAB49E401EFC70E500A781D7 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB49E3F1EFC70E500A781D7 /* mapViewController.swift */; };
 		DACACA6B1EFAF627002A9656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA6A1EFAF627002A9656 /* AppDelegate.swift */; };
 		DACACA6D1EFAF627002A9656 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA6C1EFAF627002A9656 /* FirstViewController.swift */; };
@@ -30,6 +31,7 @@
 		DA9B98631EFD782F0094C425 /* ProspectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProspectTableViewController.swift; sourceTree = "<group>"; };
 		DA9B98651EFD81B20094C425 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
 		DA9B98671EFD82580094C425 /* NoteEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteEditViewController.swift; sourceTree = "<group>"; };
+		DA9B986B1EFDBA070094C425 /* BrowserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowserController.swift; sourceTree = "<group>"; };
 		DAB49E3F1EFC70E500A781D7 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		DACACA671EFAF627002A9656 /* catchit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACACA6A1EFAF627002A9656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				DAB49E3F1EFC70E500A781D7 /* mapViewController.swift */,
+				DA9B986B1EFDBA070094C425 /* BrowserController.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			files = (
 				DACACA831EFAF803002A9656 /* fourthViewController.swift in Sources */,
 				DAB49E401EFC70E500A781D7 /* mapViewController.swift in Sources */,
+				DA9B986C1EFDBA070094C425 /* BrowserController.swift in Sources */,
 				DA9B98641EFD782F0094C425 /* ProspectTableViewController.swift in Sources */,
 				DA9B98681EFD82580094C425 /* NoteEditViewController.swift in Sources */,
 				DACACA6F1EFAF627002A9656 /* SecondViewController.swift in Sources */,
