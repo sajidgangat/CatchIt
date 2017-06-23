@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProspectTableviewControllerTableViewController: UIViewController {
+class EditProspectiveViewController: UIViewController {
 
      @IBOutlet weak var scrollView: UIScrollView!
     
