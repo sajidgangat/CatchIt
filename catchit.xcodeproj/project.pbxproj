@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA23E1E31EFC60DA008238A9 /* ProspectAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA23E1E21EFC60DA008238A9 /* ProspectAddViewController.swift */; };
+		DA9B98641EFD782F0094C425 /* ProspectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B98631EFD782F0094C425 /* ProspectTableViewController.swift */; };
+		DA9B98661EFD81B20094C425 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B98651EFD81B20094C425 /* NotesTableViewController.swift */; };
+		DA9B98681EFD82580094C425 /* NoteEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9B98671EFD82580094C425 /* NoteEditViewController.swift */; };
+		DAB49E401EFC70E500A781D7 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB49E3F1EFC70E500A781D7 /* mapViewController.swift */; };
 		DACACA6B1EFAF627002A9656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA6A1EFAF627002A9656 /* AppDelegate.swift */; };
 		DACACA6D1EFAF627002A9656 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA6C1EFAF627002A9656 /* FirstViewController.swift */; };
 		DACACA6F1EFAF627002A9656 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA6E1EFAF627002A9656 /* SecondViewController.swift */; };
@@ -17,10 +22,15 @@
 		DACACA831EFAF803002A9656 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA821EFAF803002A9656 /* fourthViewController.swift */; };
 		DACACA851EFAF815002A9656 /* fifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA841EFAF815002A9656 /* fifthViewController.swift */; };
 		DACACA871EFB18D8002A9656 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA861EFB18D8002A9656 /* NotesViewController.swift */; };
-		DACACA8A1EFB2172002A9656 /* ProspectTableviewControllerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA891EFB2172002A9656 /* ProspectTableviewControllerTableViewController.swift */; };
+		DACACA8A1EFB2172002A9656 /* EditProspectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACACA891EFB2172002A9656 /* EditProspectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA23E1E21EFC60DA008238A9 /* ProspectAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProspectAddViewController.swift; sourceTree = "<group>"; };
+		DA9B98631EFD782F0094C425 /* ProspectTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProspectTableViewController.swift; sourceTree = "<group>"; };
+		DA9B98651EFD81B20094C425 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		DA9B98671EFD82580094C425 /* NoteEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteEditViewController.swift; sourceTree = "<group>"; };
+		DAB49E3F1EFC70E500A781D7 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		DACACA671EFAF627002A9656 /* catchit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = catchit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACACA6A1EFAF627002A9656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACACA6C1EFAF627002A9656 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -33,7 +43,7 @@
 		DACACA821EFAF803002A9656 /* fourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 		DACACA841EFAF815002A9656 /* fifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthViewController.swift; sourceTree = "<group>"; };
 		DACACA861EFB18D8002A9656 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
-		DACACA891EFB2172002A9656 /* ProspectTableviewControllerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProspectTableviewControllerTableViewController.swift; sourceTree = "<group>"; };
+		DACACA891EFB2172002A9656 /* EditProspectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProspectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA9657221EFC4A86009DDC80 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DAB49E3F1EFC70E500A781D7 /* mapViewController.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 		DACACA5E1EFAF627002A9656 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +84,7 @@
 		DACACA691EFAF627002A9656 /* catchit */ = {
 			isa = PBXGroup;
 			children = (
+				DA9657221EFC4A86009DDC80 /* model */,
 				DACACA881EFB212C002A9656 /* tableviewcontrollers */,
 				DACACA7F1EFAF791002A9656 /* ViewControllers */,
 				DACACA6A1EFAF627002A9656 /* AppDelegate.swift */,
@@ -80,12 +99,15 @@
 		DACACA7F1EFAF791002A9656 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				DACACA891EFB2172002A9656 /* EditProspectViewController.swift */,
+				DA9B98671EFD82580094C425 /* NoteEditViewController.swift */,
 				DACACA6C1EFAF627002A9656 /* FirstViewController.swift */,
 				DACACA6E1EFAF627002A9656 /* SecondViewController.swift */,
 				DACACA801EFAF7EB002A9656 /* ThirdViewController.swift */,
 				DACACA821EFAF803002A9656 /* fourthViewController.swift */,
 				DACACA841EFAF815002A9656 /* fifthViewController.swift */,
 				DACACA861EFB18D8002A9656 /* NotesViewController.swift */,
+				DA23E1E21EFC60DA008238A9 /* ProspectAddViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -93,7 +115,8 @@
 		DACACA881EFB212C002A9656 /* tableviewcontrollers */ = {
 			isa = PBXGroup;
 			children = (
-				DACACA891EFB2172002A9656 /* ProspectTableviewControllerTableViewController.swift */,
+				DA9B98631EFD782F0094C425 /* ProspectTableViewController.swift */,
+				DA9B98651EFD81B20094C425 /* NotesTableViewController.swift */,
 			);
 			name = tableviewcontrollers;
 			sourceTree = "<group>";
@@ -172,11 +195,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACACA831EFAF803002A9656 /* fourthViewController.swift in Sources */,
+				DAB49E401EFC70E500A781D7 /* mapViewController.swift in Sources */,
+				DA9B98641EFD782F0094C425 /* ProspectTableViewController.swift in Sources */,
+				DA9B98681EFD82580094C425 /* NoteEditViewController.swift in Sources */,
 				DACACA6F1EFAF627002A9656 /* SecondViewController.swift in Sources */,
 				DACACA851EFAF815002A9656 /* fifthViewController.swift in Sources */,
+				DA9B98661EFD81B20094C425 /* NotesTableViewController.swift in Sources */,
 				DACACA871EFB18D8002A9656 /* NotesViewController.swift in Sources */,
+				DA23E1E31EFC60DA008238A9 /* ProspectAddViewController.swift in Sources */,
 				DACACA6B1EFAF627002A9656 /* AppDelegate.swift in Sources */,
-				DACACA8A1EFB2172002A9656 /* ProspectTableviewControllerTableViewController.swift in Sources */,
+				DACACA8A1EFB2172002A9656 /* EditProspectViewController.swift in Sources */,
 				DACACA811EFAF7EB002A9656 /* ThirdViewController.swift in Sources */,
 				DACACA6D1EFAF627002A9656 /* FirstViewController.swift in Sources */,
 			);
