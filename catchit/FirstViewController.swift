@@ -10,11 +10,13 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    override func viewDidLoad() { super.viewDidLoad() }
+    
+    @IBAction func logoutData(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: "isUserLoggedIn");
+        UserDefaults.standard.synchronize();
+        self.performSegue(withIdentifier: "loginview", sender: self)
     }
 
-   
-}
+    }
 
