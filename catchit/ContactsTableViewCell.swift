@@ -1,17 +1,18 @@
 //
-//  prospectViewTableViewCell.swift
+//  ContactsTableViewCell.swift
 //  catchit
 //
-//  Created by Paul on 2017-06-27.
+//  Created by Paul on 2017-06-28.
 //  Copyright © 2017 Paul. All rights reserved.
 //
 
 import UIKit
 
-class prospectViewTableViewCell: UITableViewCell {
-    
-    
-    @IBOutlet weak var compnaynametext: UILabel!
+class ContactsTableViewCell: UITableViewCell {
+
+    @IBOutlet weak var Companynametext: UILabel!
+    @IBOutlet weak var Lastnametext: UILabel!
+    @IBOutlet weak var Firstnametext: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

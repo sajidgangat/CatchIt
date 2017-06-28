@@ -10,48 +10,60 @@ import Foundation
 
 class ProspectPojo{
     var prs_id: Int
-    var prs_busn_name: String
-    var prs_type: String
-    var prs_year_end: String
-    var service:String
-    var prs_notes:String
-    var prospect_status:String
-    var user_id:String
-    var prs_closed_date:String
-    var prs_sale_value:String
-    var prs_reason:String
-    var pros_date:String
+    var Address: String
+    var Business_Name: String
+    var City: String
+    var CurrentStage:String
+    var Date:String
+    var Industry_Type:String
+    var Meeting_Type:String
+    var Met_Address:String
+    var Prs_Notes:String
+    var Prss_Notes:String
+    var Service:String
+    var Subject:String
+    var Time:String
+    var Year_End:String
+    var prss_with_who:String
     
-    init(prs_id: Int, prs_busn_name: String, prs_type: String, prs_year_end: String, service:String, prs_notes:String, prospect_status:String, user_id:String, prs_closed_date:String, prs_sale_value:String, prs_reason:String, pros_date:String) {
+    init(prs_id: Int, Address: String, Business_Name: String, City: String, CurrentStage:String, Date:String, Industry_Type:String, Meeting_Type:String, Met_Address:String, Prs_Notes:String, Prss_Notes:String, Service:String,Subject:String,Time:String,Year_End:String,prss_with_who:String) {
         // Initialize stored properties.
         self.prs_id = prs_id
-        self.prs_busn_name = prs_busn_name
-        self.prs_type = prs_type
-        self.prs_year_end = prs_year_end
-        self.service = service
-        self.prs_notes = prs_notes
-        self.prospect_status = prospect_status
-        self.user_id = user_id
-        self.prs_closed_date = prs_closed_date
-        self.prs_sale_value = prs_sale_value
-        self.prs_reason = prs_reason
-        self.pros_date = pros_date
+        self.Address = Address
+        self.Business_Name = Business_Name
+        self.City = City
+        self.CurrentStage = CurrentStage
+        self.Date = Date
+        self.Industry_Type = Industry_Type
+        self.Meeting_Type = Meeting_Type
+        self.Met_Address = Met_Address
+        self.Prs_Notes = Prs_Notes
+        self.Prss_Notes = Prss_Notes
+        self.Service = Service
+        self.Subject = Subject
+        self.Time = Time
+        self.Year_End = Year_End
+        self.prss_with_who = prss_with_who
         
     }
     
     init() {
         // Initialize stored properties.
         self.prs_id = 0
-        self.prs_busn_name = ""
-        self.prs_type = ""
-        self.prs_year_end = ""
-        self.service = ""
-        self.prs_notes = ""
-        self.prospect_status = ""
-        self.user_id = ""
-        self.prs_sale_value = ""
-        self.prs_closed_date = ""
-        self.prs_reason = ""
-        self.pros_date = ""
+        self.Address = ""
+        self.Business_Name = ""
+        self.City = ""
+        self.CurrentStage = ""
+        self.Date = ""
+        self.Industry_Type = ""
+        self.Meeting_Type = ""
+        self.Prs_Notes = ""
+        self.Met_Address = ""
+        self.Prss_Notes = ""
+        self.Service = ""
+        self.Subject = ""
+        self.Time = ""
+        self.Year_End = ""
+        self.prss_with_who = ""
     }
 }

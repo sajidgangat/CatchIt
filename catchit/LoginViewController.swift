@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboard()
         
         RemeberMeButton.addTarget(self, action: #selector(self.stateChanged), for: .valueChanged)
         let defaults: UserDefaults? = UserDefaults.standard
@@ -23,8 +24,8 @@ class LoginViewController: UIViewController {
         // check if defaults already saved the details
         
         if (defaults?.bool(forKey: "ISRemember"))! {
-            EmailTextBox.text = defaults?.value(forKey: "SavedUserName") as! String
-            PasswordTextbox.text = defaults?.value(forKey: "SavedPassword") as! String
+            EmailTextBox.text = defaults?.value(forKey: "SavedUserName") as? String
+            PasswordTextbox.text = defaults?.value(forKey: "SavedPassword") as? String
             RemeberMeButton.setOn(true, animated: false)
         }
         else {
@@ -107,7 +108,7 @@ class LoginViewController: UIViewController {
     
     func LoginDone(_ abb:String)
     {
-        var  a  = abb
+        let  a  = abb
         
         print (a)
         if(a == "true")
@@ -120,3 +121,4 @@ class LoginViewController: UIViewController {
         }
            }
 }
+
